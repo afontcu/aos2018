@@ -7,16 +7,71 @@ body {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
   background: #f1f1f2;
   background: -webkit-linear-gradient(to right, #dfdfdf, #f1f1f2);
   background: linear-gradient(to right, #dfdfdf, #f1f1f2);
+
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 
-.logo {
-  margin-bottom: 15vh;
+img {
+  max-width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 300;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3vh 0;
+}
+
+.header {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-gap: 10vw;
+  margin-bottom: 10vh;
+}
+
+.title {
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.title--bold {
+  font-weight: 700;
+}
+
+.sponsors {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsors--l {
+  grid-template-columns: repeat(auto-fit, 320px);
+}
+
+.sponsors--m {
+  grid-template-columns: repeat(auto-fit, 280px);
+}
+
+.sponsors--s {
+  grid-template-columns: repeat(auto-fit, 100px);
+}
+
+.sponsor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
