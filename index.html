@@ -18,48 +18,130 @@
 </head>
 
 <body>
-  <div class="wrapper">
+  <nav class="menu">
+      <a class="menu__item" href="#home">Inicio</a>
+      <a class="menu__item" href="#about">Sobre el AOS</a>
+      <a class="menu__item" href="#schedule">Programación</a>
+      <a class="menu__item" href="#sponsors">Sponsors</a>
+  </nav>
 
-    <div class="header">
-      <img class="logo" src="images/aos18.png" alt="AOS 2018">
-      <div>
-        <h1 class="title">Agile Open Spain 2018</h1>
-        <h1 class="title title--bold">12 y 13 de julio de 2018</h1>
-        <h1 class="title">Caldes de Montbui (Barcelona)</h1>
+
+
+    <section id="home" class="section section--full-page section--center">
+      <div class="section__wrapper">
+        <div class="hero">
+          <img class="hero__image" src="images/aos18.png" alt="AOS 2018">
+          <div class="hero__body">
+            <h1 class="title">Agile Open Spain 2018</h1>
+            <h1 class="title title--bold">12 y 13 de julio</h1>
+            <h1 class="title">Caldes de Montbui (Barcelona)</h1>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
     <!-- <img src="images/wip.gif" alt="work in progress!" width="180"> -->
 
-    <h2>Patrocinadores L</h2>
-    <div class="sponsors sponsors--l">
-      <div class="sponsor">
-        <img src="patrocinadores/twy.png" alt="Logo de Thinking With You, patrocinador L">
-      </div>
-      <div class="sponsor">
-        <img src="patrocinadores/netmind.png" alt="Logo de NetMind, patrocinador L">
-      </div>
-      <div class="sponsor">
-        <img src="patrocinadores/deiser.svg" alt="Logo de Deiser, patrocinador L">
-      </div>
-    </div>
+    <section id="about" class="section">
+      <div class="section__wrapper">
+        <h2 class="section__title section__title--spaced">Sobre el AOS 2018</h2>
+        <p class="section__text">
+          El <strong>Agile Open Spain 2018</strong> es un evento auto-organizado tipo Open Space,
+          una conferencia abierta para hablar de metodologías ágiles y XP en la que todos participan.
+          A diferencia de un congreso o conferencia, en el AOS los asistentes confeccionan 
+          la agenda proponiendo temas a tratar en charlas abiertas o talleres 
+          sobre lo que les gustaría compartir o aprender.
+        </p>
+        </div>
+    </section>
 
-    <h2>Patrocinadores M</h2>
-    <div class="sponsors sponsors--m">
-      <div class="sponsor">
-        <img src="patrocinadores/Tecnofor.png" alt="Logo de Tecnofor, patrocinador M">
-      </div>
-      <div class="sponsor">
-        <img src="patrocinadores/jeronimo.png" alt="Logo de Jerónimo Palacios, patrocinador M">
-      </div>
-    </div>
 
-    <h2>Patrocinadores S</h2>
-    <div class="sponsors sponsors--s">
-      <div class="sponsor">
-        <img src="patrocinadores/biko2.png" alt="Logo de Biko, patrocinador S">
+    <section id="schedule" class="section">
+      <div class="section__wrapper">
+        <h2 class="section__title section__title--spaced">Programación</h2>
+        <p class="section__text">
+            Sabemos que 1 día sabe a poco, y que en un Open Space uno de los 
+            mayores valores son las conversaciones entre pasillos y el networking. 
+            Por eso hemos preparado actividades antes y después del marketplace, 
+            para fomentar esos momentos que tanto aportan a la comunidad y que 
+            casi siempre surgen en un ambiente más distendido, alrededor de la 
+            comida o con algo para tomar.
+        </p>
+        <ul class="schedule">
+          <li class="schedule__day">
+            <div class="schedule__day-name">Jueves 12</div>
+            <ul class="schedule__items">
+              <li><strong class="schedule__hour">14.00</strong> Comida de bienvenida</li>
+              <li><strong class="schedule__hour">16.00</strong> Keynote/Actividades previas</li>
+              <li><strong class="schedule__hour">17.00</strong> MarketPlace</li>
+              <li><strong class="schedule__hour">20.00</strong> Actividad de grupo y cena</li>
+            </ul>
+          </li>
+          <li class="schedule__day">
+            <div class="schedule__day-name">Viernes 13</div>
+            <ul class="schedule__items">
+              <li><strong class="schedule__hour">09.00</strong> Actividad de apertura</li>
+              <li><strong class="schedule__hour">10.00</strong> Open Space</li>
+              <li><strong class="schedule__hour">18.00</strong> Cierre/Retro</li>
+            </ul>
+          </li>
+        </ul>
       </div>
-    </div>
-  </div>
+    </section>
+
+
+    <section id="sponsors" class="section">
+      <div class="section__wrapper">
+        <h2 class="section__title section__title--spaced">Patrocinadores</h2>
+        <h3 class="section__title section__title--small">Patrocinadores L</h3>
+        <div class="sponsors sponsors--l">
+          <div class="sponsor">
+            <a href="https://thinkingwithyou.com" title="Thinking with you">
+              <img src="patrocinadores/twy.png" alt="Logo de Thinking With You, patrocinador L">
+            </a>
+          </div>
+          <div class="sponsor">
+            <a href="https://www.netmind.es" title="NetMind">
+              <img src="patrocinadores/netmind.png" alt="Logo de NetMind, patrocinador L"
+                style="margin-right: 60px;">
+            </a>
+          </div>
+          <div class="sponsor">
+            <a href="https://www.deiser.com" title="Deiser">
+              <img src="patrocinadores/deiser.svg" alt="Logo de Deiser, patrocinador L">
+            </a>
+          </div>
+        </div>
+
+        <h3 class="section__title section__title--small">Patrocinadores M</h3>
+        <div class="sponsors sponsors--m">
+          <div class="sponsor">
+            <a href="http://tecnofor.es/" title="Tecnofor">
+              <img src="patrocinadores/Tecnofor.png" alt="Logo de Tecnofor, patrocinador M">
+            </a>
+          </div>
+          <div class="sponsor">
+            <a href="http://jeronimopalacios.com" title="Jerónimo Palacios">
+              <img src="patrocinadores/jeronimo.png" alt="Logo de Jerónimo Palacios, patrocinador M">
+            </a>
+          </div>
+        </div>
+
+        <h3 class="section__title section__title--small">Patrocinadores S</h3>
+        <div class="sponsors sponsors--s">
+          <div class="sponsor">
+            <a href="https://www.biko2.com/" title="Biko">
+              <img src="patrocinadores/biko2.png" alt="Logo de Biko, patrocinador S">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  <script src="slidenav.js"></script>
+  <script>
+    window.onload = function() {
+      window.slide = new SlideNav();
+    }
+  </script>
 </body>
 </html>
