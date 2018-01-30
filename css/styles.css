@@ -109,6 +109,11 @@ h1,h2,h3,h4,h5,h6 {
   line-height: 1.4;
 }
 
+.section__text--centered {
+  display: flex;
+  align-items: center;
+}
+
 
 /* Hero
 ============================================================================= */
@@ -177,27 +182,12 @@ h1,h2,h3,h4,h5,h6 {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.sponsors--l {
-}
+.sponsors--l {}
 
-.sponsors--m {
-}
+.sponsors--m {}
 
 .sponsors--s img{
-  max-width: 180px;
-}
-
-.sponsors--other {
-  align-items: start;
-}
-
-.sponsors--other img {
-  max-width: 240px;
-}
-
-.sponsors--other > .sponsor {
-  flex-direction: column;
-  font-style: italic;
+  max-width: 160px;
 }
 
 .sponsor {
