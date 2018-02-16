@@ -187,7 +187,11 @@ h1,h2,h3,h4,h5,h6 {
 
 .sponsors--l {}
 
-.sponsors--m {}
+.sponsors--m {
+  grid-template-columns: repeat(3, 200px);
+  justify-content: space-evenly;
+  grid-row-gap: 1rem;
+}
 
 .sponsors--s img{
   max-width: 160px;
