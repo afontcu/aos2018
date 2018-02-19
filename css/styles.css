@@ -182,19 +182,36 @@ h1,h2,h3,h4,h5,h6 {
   justify-content: center;
   margin-bottom: 4.5rem;
   grid-gap: 1rem;
+}
+
+.sponsors--l {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.sponsors--l {}
-
 .sponsors--m {
-  grid-template-columns: repeat(3, 200px);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   justify-content: space-evenly;
-  grid-row-gap: 1rem;
+  grid-gap: 3rem;
+}
+
+.sponsors--s {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
+}
+
+@media screen and (min-width: 400px) {
+  .sponsors {
+    grid-gap: 1.5rem;
+  }
+  .sponsors--l img {
+    max-width: 250px;
+  }
+  .sponsors--m img {
+    max-width: 210px;
+  }
 }
 
 .sponsors--s img{
-  max-width: 160px;
+  max-width: 130px;
 }
 
 .sponsor {
