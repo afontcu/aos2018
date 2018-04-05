@@ -195,7 +195,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .sponsors--s {
-  grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
 }
 
 @media screen and (min-width: 400px) {
