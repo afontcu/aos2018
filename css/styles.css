@@ -66,6 +66,16 @@ a:hover {
   background-color: rgba(0,0,0,0.1);
 }
 
+.menu__item--display-md {
+  display: none;
+}
+
+@media (min-width: 820px) {
+  .menu__item--display-md {
+    display: inherit;
+  }
+}
+
 
 .title {
   font-weight: 100;
