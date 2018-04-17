@@ -219,7 +219,7 @@ a:hover {
 }
 
 .sponsors--s {
-  grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+  grid-template-columns: repeat(auto-fit, 200px);
 }
 
 @media screen and (min-width: 400px) {
