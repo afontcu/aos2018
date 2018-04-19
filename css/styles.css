@@ -4,7 +4,8 @@
   --bg: #fafafa;
   --text: #3b3b3b;
   --max-width: 1000px;
-  --primary: #86cbec;
+  --primary: hsl(199, 73%, 73%);
+  --primary-hover: hsl(199, 73%, 63%);
   --secondary: #e37950;
 }
 html,
@@ -33,7 +34,32 @@ a {
 }
 
 a:hover {
-  filter: brightness(75%);
+  color: var(--primary-hover);
+}
+
+.link--button {
+  display: block;
+  position: relative;
+  float: left;
+  padding: 24px 72px;
+  margin: 10px 20px 10px 0;
+
+  font-weight: 100;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #FFF;
+  border-radius: 5px;
+  background-color: var(--primary);
+  text-decoration: none;
+  transition: all 0.2s;
+  box-shadow: 0 5px 0 0 var(--primary-hover);
+}
+
+.link--button:hover {
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  box-shadow: 0 0 0 0 var(--primary-hover);
 }
 
 
@@ -94,6 +120,11 @@ a:hover {
 
 .section {
   margin-bottom: 8rem;
+}
+.section::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 .section--full-page {
   height: 100vh;
