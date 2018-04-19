@@ -174,7 +174,8 @@ a:hover {
 
 .hero {
   display: grid;
-  grid-gap: 10vh;
+  grid-gap: 8vh;
+  margin-top: 4rem;
 }
 .hero__image {
   width: 340px;
