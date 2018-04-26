@@ -98,6 +98,16 @@ li {
   min-width: max-content;
 }
 
+.menu__item.active {
+  background-color: var(--primary);
+  color: white;
+}
+
+.menu__item.active:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
 .menu__item:hover {
   background-color: rgba(0,0,0,0.1);
 }
