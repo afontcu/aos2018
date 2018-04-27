@@ -83,7 +83,7 @@ li {
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
-  overflow-x: scroll;
+  overflow-x: auto;
 
   background-color: #fff;
   box-shadow: 0 -1px 8px rgba(0, 0, 0, 0.23);
@@ -210,10 +210,10 @@ li {
 }
 
 
-/* Schedule
+/* Table
 ============================================================================= */
 
-.schedule {
+.table {
   list-style: none;
   padding: 0;
   margin: 3rem 0 0;
@@ -222,35 +222,38 @@ li {
   grid-gap: 10vh;
 }
 @media (min-width: 900px) {
-  .schedule {
+  .table {
     grid-template-columns: 1fr 1fr;
   }
 }
-.schedule__day {
+.table__header {
   background-color: var(--primary);
   padding: 1rem;
   text-transform: uppercase;
   font-weight: bolder;
 }
-.schedule__items {
+.table__items {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.schedule__items > li {
+.table__items > li {
   padding: 1rem;
 }
-.schedule__items > li:nth-of-type(2n) {
+.table__items > li:nth-of-type(2n) {
   background-color: var(--bg);
 }
-.schedule__items > li:nth-of-type(2n+1) {
+.table__items > li:nth-of-type(2n+1) {
   background-color: #f1f1f2;
 }
-.schedule__hour {
+.table__highlight {
   display: inline-block;
   text-align: right;
   width: 50px;
   margin-right: 40px;
+}
+.table__highlight--center {
+  text-align: center;
 }
 
 /* Sponsors
