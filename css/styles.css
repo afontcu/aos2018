@@ -47,11 +47,10 @@ li {
 }
 
 .link--button {
-  display: block;
   position: relative;
-  float: left;
+  display: inline-block;
   padding: 24px 72px;
-  margin: 10px 20px 10px 0;
+  margin: 10px auto;
 
   font-weight: 100;
   font-size: 1.2rem;
