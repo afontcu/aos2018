@@ -302,3 +302,35 @@ li {
   justify-content: center;
   margin: 1rem 0;
 }
+
+.sponsor__img {
+  max-width: 100%;
+  background-size: 100%;
+  background-image: url('../sponsors.png');
+  background-repeat: no-repeat;
+}
+
+.sponsor__img--agilar { background-position: 0 0%; background-size: 100%; }
+.sponsor__img--agilespain { background-position: 0 4.022191%; background-size: 100%; }
+.sponsor__img--autentia { background-position: 0 10.106857%; background-size: 100%; }
+.sponsor__img--biko2 { background-position: 0 12.87398%; background-size: 100%; }
+.sponsor__img--brickme { background-position: 0 17.453046%; background-size: 100%; }
+.sponsor__img--calidae { background-position: 0 23.226704%; background-size: 100%; }
+.sponsor__img--deiser { background-position: 0 28.987455%; background-size: 100%; }
+.sponsor__img--dia { background-position: 0 33.148661%; background-size: 100%; }
+.sponsor__img--drivetoimprove { background-position: 0 38.513514%; background-size: 100%; }
+.sponsor__img--enciendelaluz { background-position: 0 41.504425%; background-size: 100%; }
+.sponsor__img--initservices { background-position: 0 44.57065%; background-size: 100%; }
+.sponsor__img--itnove { background-position: 0 48.696043%; background-size: 100%; }
+.sponsor__img--jeronimo { background-position: 0 51.347768%; background-size: 100%; }
+.sponsor__img--kanbanize { background-position: 0 53.901345%; background-size: 100%; }
+.sponsor__img--mango { background-position: 0 56.415929%; background-size: 100%; }
+.sponsor__img--netmind { background-position: 0 58.81303%; background-size: 100%; }
+.sponsor__img--nolegaltech { background-position: 0 67.218704%; background-size: 100%; }
+.sponsor__img--paradalia { background-position: 0 73.028674%; background-size: 100%; }
+.sponsor__img--runroom { background-position: 0 77.003169%; background-size: 100%; }
+.sponsor__img--talan { background-position: 0 81.926061%; background-size: 100%; }
+.sponsor__img--tecnofor { background-position: 0 84.680284%; background-size: 100%; }
+.sponsor__img--ticketea { background-position: 0 89.040473%; background-size: 100%; }
+.sponsor__img--twy { background-position: 0 95.684455%; background-size: 100%; }
+.sponsor__img--ust { background-position: 0 100%; background-size: 100%; }
